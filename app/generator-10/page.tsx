@@ -20,7 +20,7 @@ export default function Generator10Page() {
 
     const newNumbers = new Set<number>()
     while (newNumbers.size < 10) {
-      newNumbers.add(Math.floor(Math.random() * 99) + 1)
+      newNumbers.add(Math.floor(Math.random() * 90) + 1)
     }
 
     setNumbers(Array.from(newNumbers).sort((a, b) => a - b))
