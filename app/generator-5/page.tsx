@@ -19,7 +19,7 @@ export default function Generator5Page() {
 
     const newNumbers = new Set<number>()
     while (newNumbers.size < 5) {
-      newNumbers.add(Math.floor(Math.random() * 99) + 1)
+      newNumbers.add(Math.floor(Math.random() * 90) + 1)
     }
 
     setNumbers(Array.from(newNumbers).sort((a, b) => a - b))
@@ -242,7 +242,7 @@ export default function Generator5Page() {
                   <li>• AI analyzes historical patterns</li>
                   <li>• Considers cosmic alignments</li>
                   <li>• Generates optimized combinations</li>
-                  <li>• Numbers range from 1-99</li>
+                  <li>• Numbers range from 1-90</li>
                 </ul>
               </CardContent>
             </Card>
