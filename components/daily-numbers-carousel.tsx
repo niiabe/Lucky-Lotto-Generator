@@ -79,7 +79,7 @@ export default function DailyNumbersCarousel() {
 
       const newDailyNumbers = categories.map((category) => ({
         date: today,
-        numbers: generateRandomNumbers(7, 1, 99),
+        numbers: generateRandomNumbers(5, 1, 90),
         category: category.name,
         description: category.desc,
         colors: category.colors,
